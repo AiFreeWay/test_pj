@@ -45,3 +45,8 @@ fn long_test() {
         diner_philosophers::start();
     }).join().unwrap();
 }
+
+#[test]
+fn test_ci() {
+    assert!(false);
+}
