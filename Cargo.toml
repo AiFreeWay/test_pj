@@ -1,0 +1,18 @@
+[package]
+name = "test_pj"
+version = "0.1.0"
+authors = ["AifreeWay <vladyaaifree@gmail.com>"]
+
+[dependencies]
+rand="0.3.*"
+libc = "0.2.0"
+
+[lib]
+name = "test_pj"
+crate-type = ["rlib", "cdylib"]
+
+[features]
+default = ["foo", "bar"]
+foo = []
+bar = []
+baz = []
