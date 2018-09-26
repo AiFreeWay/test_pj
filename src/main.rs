@@ -1,7 +1,7 @@
 extern crate test_pj;
 
-use test_pj::if_and_loops;
+use test_pj::generics;
 
 fn main() {
-    if_and_loops::start();
+    generics::start();
 }

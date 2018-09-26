@@ -51,3 +51,8 @@ pub mod errors;
 pub mod ffi;
 pub mod simple_types;
 pub mod if_and_loops;
+pub mod structures;
+pub mod matching;
+pub mod strings;
+pub mod generics;
+pub mod transmute;
